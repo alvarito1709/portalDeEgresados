@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Egresados</title>
+
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+    <link rel="stylesheet" th:href="@{/css/footer.css}">
+</head>
+<body>
+
+<th:block th:replace="commons :: header"></th:block>
+
+
+<div class="bannerContainer">
+    <div class="bannerAzul">
+
+        <h1 class="tituloPortal">Portal de Egresados</h1>
+    </div>
+</div>
+
+<div class="bodyContainer">
+
+    <div class="indexCard">
+        <img th:src="@{/img/personasTrabajando.png}">
+        <button class="cardButton">Nuestros Egresados</button>
+    </div>
+
+    <div class="indexCard">
+        <img th:src="@{/img/personaConCompu.png}">
+        <button class="cardButton">¿Te gustaría seguir aprendiendo?</button>
+    </div>
+    <div class="indexCard">
+
+
+
+            <button class="redirectButton">OPORTUNIDADES LABORALES</button>
+            <button class="redirectButton">TU PERFIL</button>
+
+
+
+    </div>
+
+    <div class="institutosContainer">
+        <h2 class="linkInstituto">IFTS</h2>
+        <h2 class="linkInstituto">CFP</h2>
+        <h2 class="linkInstituto">TALENTO TECH</h2>
+    </div>
+
+</div>
+
+
+<th:block th:replace="commons :: footer"></th:block>
+
+<th:block th:replace="commons :: footer-mobile"></th:block>
+
+</body>
+</html>
