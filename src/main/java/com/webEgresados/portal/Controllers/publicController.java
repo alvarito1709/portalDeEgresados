@@ -13,4 +13,9 @@ public class publicController {
     public String index(){
         return "index";
     }
+
+    @GetMapping("/impulsoLaboral")
+    public String impulsoLaboral(){
+        return "impulsoLaboral";
+    }
 }

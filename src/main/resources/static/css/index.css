@@ -44,10 +44,12 @@
     align-items: stretch;
     justify-content: space-evenly;
     height: 50vh;
+    width: 300px;
 }
 
 .indexCard img{
     width: 300px;
+    height: 220px;
 }
 
 .cardButton{
@@ -74,4 +76,18 @@
     background-color: white;
     color: #182D4B;
     font-weight: 650;
+}
+
+.institutosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.linkInstituto{
+    color: #182D4B;
+    font-size: 1.5rem;
+    font-weight: 650;
+    font-style: unset;
 }

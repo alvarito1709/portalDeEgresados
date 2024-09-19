@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Impulso Laboral</title>
+
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+    <link rel="stylesheet" th:href="@{/css/footer.css}">
+    <link rel="stylesheet" th:href="@{/css/impulsoLaboral.css}">
+</head>
+<body>
+
+<th:block th:replace="commons :: header"></th:block>
+
+<div class="contenedorAmarillo">
+
+    <div class="impulsoHeaderAzul">
+        <h2 class="tituloImpulso">Impulso Laboral</h2>
+    </div>
+</div>
+
+<div class="bodyContainer">
+    <div class="separadorBody">
+        <img th:src="@{/img/personasEnReunion.png}" alt="personas en reunion">
+        <p class="descripcionImpulsoLaboral">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+            Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+            Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+            Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.</p>
+    </div>
+    <div class="separadorBody">
+        <button class="botonRedireccion">CARGA TU CV</button>
+        <button class="botonRedireccion">CARGA TU OFERTA</button>
+
+        <a class="linkPersonaRegistrada">Si ya estas registrado hace <span class="bolder">click Aqui</span></a>
+    </div>
+</div>
+
+<th:block th:replace="commons :: footer"></th:block>
+<th:block th:replace="commons :: footer-mobile"></th:block>
+
+
+
+</body>
+</html>

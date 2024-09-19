@@ -1,0 +1,65 @@
+
+
+.contenedorAmarillo{
+    background-color: #FCDF39;
+    width: 100%;
+    border-radius: 0 0 100px 0;
+    height: 15vh;
+    padding: 0 0 20px 0;
+}
+
+.impulsoHeaderAzul{
+    background-color: #182D4B ;
+    border-radius: 0 0 100px 0;
+    padding: 20px;
+    width: 96%;
+    color: white;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+
+}
+
+.linkPersonaRegistrada{
+    color: #182D4B;
+    cursor: pointer;
+}
+
+.bolder{
+    font-weight: 600;
+}
+
+.bodyContainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.separadorBody{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+.separadorBody img{
+    width: 400px;
+    align-self: center;
+}
+
+.botonRedireccion{
+    color: #182D4B;
+    font-size: 1.2rem;
+    padding: 20px ;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #036ea8;
+    font-weight: 550;
+    width: 50%;
+    cursor: pointer;
+}
