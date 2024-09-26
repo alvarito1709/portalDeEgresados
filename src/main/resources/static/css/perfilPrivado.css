@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+.contenedorAmarillo{
+    background-color: #FCDF39;
+    width: 100%;
+    border-radius: 0 0 100px 0;
+    height: 15vh;
+    padding: 0 0 20px 0;
+}
+
+.impulsoHeaderAzul{
+    background-color: #182D4B ;
+    border-radius: 0 0 100px 0;
+    padding: 20px;
+    width: 96%;
+    color: white;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+
+}
+
+.bodyContainer{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.divisorBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+}
+
+#contenedorImagen{
+    background-color: #b6b5b5;
+    border-radius: 100%;
+    border: 1px solid #97ECFF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+}
+
+.progressBarPerfilContainer{
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #97ECFF;
+    font-weight: 600;
+}
+
+.botonesRedireccion{
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+    color: #182D4B;
+    background-color: white;
+}
+
+.botonAzul{
+    border:1px solid #97ECFF;
+    /*background-color: rgba(151, 236, 255, 0.42);*/
+}
+
+.botonAmarillo{
+    border: 1px solid #FCDF39;
+    /*background-color: #fcdf3952;*/
+}
+
+.textoAzul{
+    color: #182D4B;
+}
+
+.textoVerde{
+    color: #77C838;
+}
+
+.fotoPlus{
+    align-self: end;
+    font-weight: 800;
+    color: #182D4B;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tus Datos</title>
+
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+    <link rel="stylesheet" th:href="@{/css/footer.css}">
+    <link rel="stylesheet" th:href="@{/css/perfilPrivado.css}">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+
+
+<th:block th:replace="commons :: header"></th:block>
+
+<div class="contenedorAmarillo">
+
+    <div class="impulsoHeaderAzul">
+        <h2 class="tituloImpulso">Impulso Laboral - Tu perfil</h2>
+    </div>
+</div>
+
+<div class="bodyContainer">
+
+    <div class="divisorBody">
+        <div id="contenedorImagen">
+
+            <iconify-icon icon="fa6-solid:plus" width="28" height="28" class="fotoPlus"></iconify-icon>        </div>
+
+        <div class="progressBarPerfilContainer">
+            <span class="textoAzul">TU PERFIL ESTÁ: </span><span class="textoVerde">70% COMPLETO</span>
+        </div>
+    </div>
+    <div class="divisorBody">
+
+        <button class="botonesRedireccion botonAzul">DATOS PERSONALES</button>
+        <button class="botonesRedireccion botonAzul">DATOS LABORALES</button>
+        <button class="botonesRedireccion botonAzul">DATOS ADICIONALES</button>
+        <button class="botonesRedireccion botonAmarillo">OFERTAS LABORALES</button>
+        <button class="botonesRedireccion botonAmarillo">CARGAR CV</button>
+    </div>
+</div>
+
+<th:block th:replace="commons :: footer"></th:block>
+<th:block th:replace="commons :: footer-mobile"></th:block>
+
+</body>
+</html>

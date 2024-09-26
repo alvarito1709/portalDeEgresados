@@ -18,4 +18,14 @@ public class publicController {
     public String impulsoLaboral(){
         return "impulsoLaboral";
     }
+
+    @GetMapping("/nuestrosEgresados")
+    public String nuestrosEgresados(){
+        return "nuestrosEgresados";
+    }
+
+    @GetMapping("/tuPerfil")
+    public String perfilPrivado(){
+        return "perfilPrivado";
+    }
 }

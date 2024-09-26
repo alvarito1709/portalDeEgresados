@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <title>Nuestros Egresados</title>
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+    <link rel="stylesheet" th:href="@{/css/footer.css}">
+    <link rel="stylesheet" th:href="@{/css/nuestrosEgresados.css}">
+</head>
+<body>
+
+<th:block th:replace="commons :: header"></th:block>
+
+<div class="contenedorAmarillo">
+
+    <div class="impulsoHeaderAzul">
+        <h2 class="tituloImpulso">Nuestros Egresados</h2>
+    </div>
+</div>
+
+<div class="bodyContainer">
+
+    <div class="contenedorTercio">
+        <img th:src="@{/img/personasTrabajando.png}">
+    </div>
+    <div class="contenedorTercio">
+        <h2>IFTS</h2>
+        <h2>TALENTO TECH</h2>
+    </div>
+    <div class="contenedorTercio">
+
+        <h2>CFP</h2>
+    </div>
+</div>
+
+
+<th:block th:replace="commons :: footer"></th:block>
+<th:block th:replace="commons :: footer-mobile"></th:block>
+</body>
+</html>

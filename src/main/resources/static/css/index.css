@@ -58,6 +58,8 @@
     color: #182D4B;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
 .buttonRedirectContainer{
@@ -76,6 +78,9 @@
     background-color: white;
     color: #182D4B;
     font-weight: 650;
+
+    cursor: pointer;
+    width: 100%;
 }
 
 .institutosContainer{
